@@ -1096,7 +1096,7 @@
 			]
 			setInterval(randomQuote, 10000);
 			function randomQuote(){
-			  let random = quotes[Math.floor(Math.abs(x) * quotes.length)];
+			  let random = quotes[Math.floor(Math.acos(x) * quotes.length)];
 			  quotation.innerText = `"${random.quote}"`;
 			  source.innerText = random.source;
 			}
