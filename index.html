@@ -1094,11 +1094,8 @@
 			    "source": "-"
 			  },
 			]
-			setInterval(randomQuote, 60000);
-			function randomQuote(){
-			  let random = quotes[Math.floor(Math.random() * quotes.length)];
-			  quotation.innerText = `"${random.quote}"`;
-			  source.innerText = random.source;
+			setInterval(randomQuote, 10000);
+			
 			}
 
 			var i = 0;
@@ -1123,8 +1120,6 @@
 			}
 			typeWriter();
 		</script>
-   <script>
-        alert("dah jan dilihat terros 😅.");
-    </script>
+   
 	</body>
 </html>
